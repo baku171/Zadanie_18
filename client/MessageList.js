@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './MessageList.css';
-import default from './UserForm';
+import UserForm from './UserForm';
 
 const Message = props => (
     <div className={styles.Message}>
@@ -13,7 +13,7 @@ const Message = props => (
 const MessageList = props => (
     <div className={styles.MessageList}>
         {
-            props.message.map((message, i) => {
+            props.messages.map((message, i) => {
                 return (
                     <Message
                         key={i}
