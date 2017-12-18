@@ -1,8 +1,8 @@
 {
-  "name": "zadanie_16_4",
+  "name": "zadanie_18",
   "version": "1.0.0",
-  "description": "Installing Webpack",
-  "main": "src/index.js",
+  "description": "Chat app",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack",
